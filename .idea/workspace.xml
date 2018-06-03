@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d75a0a7-2a84-4a53-8cf6-334cb0046d43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/src/weatherLib_base.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/weatherLib.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/weatherLib.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/weatherLib_test.dart" beforeDir="false" />
-    </list>
+    <list default="true" id="8d75a0a7-2a84-4a53-8cf6-334cb0046d43" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +17,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="weatherLib.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="weatherLib.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/weatherLib.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -44,20 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weatherNetwork.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="weatherNetwork.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/src/weatherNetwork.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weatherLib_example.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/weatherLib_example.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -131,11 +118,6 @@
             <path>
               <item name="weatherLib" type="b2602c69:ProjectViewProjectNode" />
               <item name="weatherLib" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weatherLib" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherLib" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,12 +140,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3908046" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Test.tests in weatherLib_test.dart">
+  <component name="RunManager" selected="Dart Test.tests in weatherNetwork_test.dart">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -191,9 +173,6 @@
       <option name="checkedMode" value="false" />
       <option name="filePath" value="$PROJECT_DIR$/example/weatherLib_example.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="tests in weatherLib_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/weatherLib_test.dart" />
     </configuration>
     <configuration name="tests in weatherNetwork_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/test/weatherNetwork_test.dart" />
@@ -238,12 +217,10 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.weatherLib_example.dart" />
-      <item itemvalue="Dart Test.tests in weatherLib_test.dart" />
       <item itemvalue="Dart Test.tests in weatherNetwork_test.dart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Test.tests in weatherLib_test.dart" />
         <item itemvalue="Dart Test.tests in weatherNetwork_test.dart" />
       </list>
     </recent_temporary>
@@ -312,7 +289,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979658" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -572,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/weatherNetwork.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/weatherNetwork_test.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -593,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/weatherLib_example.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/weatherLib_base.dart">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -610,6 +573,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/weatherLib_example.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/weatherNetwork.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
