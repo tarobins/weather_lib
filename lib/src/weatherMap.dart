@@ -5,12 +5,10 @@ import 'weatherNetwork.dart';
 
 Future<Map<String, String>> getWeatherMap() {
   return getXmlString().then((String xmlString) => new Map.fromIterable(
-      parse(xmlString)
-          .children
-          .where((node) => node is XmlElement)
-          .first
-          .descendants
-          .where((node) => node is XmlElement),
+      parse(xmlString).descendants.where((node) =>
+          node is XmlElement &&
+          node.children.length == 1 &&
+          node.children[0] is XmlText),
       key: (node) => node.name.local,
       value: (node) => node.text));
 }
