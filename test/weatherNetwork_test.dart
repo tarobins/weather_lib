@@ -4,7 +4,7 @@ import 'package:test/test.dart';
 import 'package:weatherLib/src/weatherNetwork.dart';
 
 void main() {
-  test('has temp', () async {
+  test('stream has temp', () async {
     Future<Stream<String>> s = getXmlStringStream();
 
     var found = false;
@@ -17,5 +17,9 @@ void main() {
     }
 
     expect(found, isTrue);
+  });
+
+  test('string has temp', () async {
+    expect((await getXmlString()).contains('temperature_current_C'), isTrue);
   });
 }
