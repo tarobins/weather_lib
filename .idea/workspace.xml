@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d75a0a7-2a84-4a53-8cf6-334cb0046d43" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/weatherMap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/weatherMap.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/weatherMap_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/weatherMap_test.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,13 +71,17 @@
       <file leaf-file-name="weatherMap_test.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/weatherMap_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state>
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#1#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="http.dart" pinned="false" current-in-tab="false">
@@ -607,9 +608,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests_in_weatherMap_test_dart - 2018.06.10 at 14h 48m 10s.xml">
-      <configuration name="tests in weatherMap_test.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="tests_in_weatherMap_test_dart - 2018.06.10 at 14h 48m 22s.xml">
       <configuration name="tests in weatherMap_test.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
@@ -635,6 +633,9 @@
       <configuration name="tests in weatherMap_test.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
     <history-entry file="tests_in_weatherMap_test_dart - 2018.06.10 at 19h 13m 14s.xml">
+      <configuration name="tests in weatherMap_test.dart" configurationId="DartTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests_in_weatherMap_test_dart - 2018.06.10 at 19h 14m 50s.xml">
       <configuration name="tests in weatherMap_test.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
   </component>
@@ -681,7 +682,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="Dart">
           <url>file://$PROJECT_DIR$/test/weatherMap_test.dart</url>
-          <line>10</line>
+          <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -805,9 +806,6 @@
           <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/weatherLib_test.dart" />
     <entry file="file://$PROJECT_DIR$/lib/src/weatherLib_base.dart" />
@@ -963,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/weatherLib.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/weatherNetwork_test.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1001,6 +992,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/xml-3.0.0/lib/xml/nodes/node.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/weatherLib.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/weatherNetwork.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1008,13 +1016,6 @@
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/xml-3.0.0/lib/xml/nodes/node.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1030,10 +1031,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/weatherMap_test.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state>
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#1#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

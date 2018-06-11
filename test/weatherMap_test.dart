@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:test/test.dart';
 import 'package:weatherLib/src/weatherMap.dart';
 
