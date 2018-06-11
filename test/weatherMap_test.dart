@@ -5,10 +5,9 @@ import 'package:weatherLib/src/weatherMap.dart';
 
 void main() {
   test('has temp', () async {
-    Future<Map<String, String>> weatherMapFuture = getWeatherMap();
+    var weatherMap = await getWeatherMap();
 
-    var weatherMap = await weatherMapFuture;
-    
-    expect(weatherMap.containsKey('temperature_current_C'), true);
+    expect(weatherMap.length, 28);
+    expect(weatherMap.keys, contains('temperature_current_C'));
   });
 }
