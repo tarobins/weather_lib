@@ -1,9 +1,7 @@
 # weatherLib
 
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A library for getting current conditions data from 
+the University of Waterloo weather station.
 
 ## Usage
 
@@ -12,11 +10,11 @@ A simple usage example:
     import 'package:weatherLib/weatherLib.dart';
 
     main() {
-      var awesome = new Awesome();
+      var weatherData = getWeatherMap();
     }
 
 ## Features and bugs
 
-Please file feature requests and bugs at the [issue tracker][tracker].
+Please file feature requests and bugs in [issues](https://github.com/tarobins/weather_lib/issues).
 
-[tracker]: http://example.com/issues/replaceme
+
